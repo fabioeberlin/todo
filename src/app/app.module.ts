@@ -20,6 +20,7 @@ import { CreateComponent } from './component/create/create.component';
 import {MatInputModule} from '@angular/material/input';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { UpdateComponent } from './component/update/update.component';
 
 
 @NgModule({
@@ -30,6 +31,7 @@ import { MatNativeDateModule } from '@angular/material/core';
     ReadAllComponent,
     FinalizadosComponent,
     CreateComponent,
+    UpdateComponent,
   ],
   imports: [
     BrowserModule,
